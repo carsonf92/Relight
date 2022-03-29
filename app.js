@@ -58,6 +58,22 @@ function initializeGame() {
 	});
 }
 
+function showInstructions() {
+
+}
+
+function dimissInstructions() {
+
+}
+
+function showWin() {
+
+}
+
+function newGame() {
+	
+}
+
 // Interactions
 
 grid.addEventListener('click', toggleSwitches);

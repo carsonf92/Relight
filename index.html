@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="app.css"/>
 </head>
 <body>
+    <div class="overlay"></div>
     <main>
         <header>
             <h1>Relight</h1>
@@ -43,6 +44,27 @@
             <input class="switch" type="checkbox" name="switch">
             <input class="switch" type="checkbox" name="switch">
             <input class="switch" type="checkbox" name="switch">
+        </section>
+        <footer>
+            <button id="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" id="i-menu" viewBox="0 0 32 32" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"/>
+                </svg>
+            </button>
+        </footer>
+        <section class="modal instructions">
+            <div class="dismiss">
+                <svg xmlns="http://www.w3.org/2000/svg" id="i-close" viewBox="0 0 32 32" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <path d="M2 30 L30 2 M30 30 L2 2"/>
+                </svg>
+            </div>
+            <h2>Instructions</h2>
+            <p>Select the switches to turn on all the lights. Selecting a switch will also toggle its neighbors to the top, right, bottom, and left.</p>
+            <p>Get lit!</p>
+        </section>
+        <section class="modal win">
+            <h2>You Win!</h2>
+            <div id="restart" class="button">Play Again</div>
         </section>
     </main>
     <script type="text/javascript" src="app.js"></script>
