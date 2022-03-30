@@ -1,2 +1,2 @@
 # Relight
- Daily light grid game
+Light grid game
