@@ -7,7 +7,7 @@
     <meta name="description" content="Daily light grid game"/>
     <meta name="author" content="Carson Ford"/>
     <title>Relight</title>
-    <link rel="stylesheet" href="dist/app.css"/>
+    <link rel="stylesheet" href="dist/app.css?v2"/>
 </head>
 <body>
     <div class="overlay"></div>
@@ -50,20 +50,15 @@
             </button>
         </footer>
         <section id="instructions" class="modal">
-            <button class="modal__dismiss">
-                <svg xmlns="http://www.w3.org/2000/svg" id="i-close" viewBox="0 0 32 32" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M2 30 L30 2 M30 30 L2 2"/>
-                </svg>
-            </button>
             <h2>Instructions</h2>
             <p>Select the switches to turn on all the lights. Selecting a switch will also toggle its neighbors to the top, right, bottom, and left.</p>
-            <p>Get lit!</p>
+            <button class="modal__dismiss button">Dismiss</button>
         </section>
         <section id="win" class="modal">
             <h2>You Win!</h2>
-            <button id="restart" class="button">Play Again</button>
+            <button id="restart" class="modal__dismiss button">Play Again</button>
         </section>
     </main>
-    <script type="text/javascript" src="dist/app.js"></script>
+    <script type="text/javascript" src="dist/app.js?v2"></script>
 </body>
 </html>
