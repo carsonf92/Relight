@@ -1,2 +1,2 @@
-# Relight
+# Lights Out
 Light grid game
